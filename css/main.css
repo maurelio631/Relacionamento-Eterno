@@ -1,0 +1,17 @@
+:root{
+    --roxo:hsl(285, 100%, 5%);
+}
+
+body{
+    position: relative;
+    background-color: var(--roxo) !important;
+}
+
+header font {
+    background-color: rgb(161, 36, 65) !important;
+}
+
+
+section p {
+    text-align: justify;
+}

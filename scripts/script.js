@@ -16,5 +16,4 @@ function checkLocalStorage() {
   }
 }
 
-
-checkLocalStorage()
+checkLocalStorage();    

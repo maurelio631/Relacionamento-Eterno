@@ -9,8 +9,8 @@ function delay() {
 
 function checkLocalStorage() {
   if (localStorage == null) {
-    localStorage.setItem("visited", "yes");
     delay();
+    localStorage.setItem("namespace.visited", 1);
   } else {
       classList.remove("d-none")
   }

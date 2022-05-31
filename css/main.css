@@ -1,17 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
 :root{
     --roxo:hsl(285, 100%, 5%);
+    --rosa:rgb(161, 36, 65);
 }
 
 body{
     position: relative;
     background-color: var(--roxo) !important;
+    font-family: 'Poppins' !important;
 }
 
 header font {
-    background-color: rgb(161, 36, 65) !important;
+    background-color: var(--rosa) !important;
 }
 
 
 section p {
     text-align: justify;
+}
+
+footer{
+    background-color:var(--rosa);
 }

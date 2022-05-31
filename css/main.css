@@ -22,5 +22,5 @@ section p {
 }
 
 footer{
-    background-color:var(--rosa);
+    background-color:var(--rosa) !important;
 }
